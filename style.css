@@ -1,0 +1,92 @@
+body {
+    font-family: 'Your Custom Font', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffb6c1, #c45778); /* Gradient from Baby Pink to Light Pink */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, nav {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display the list items horizontally */
+    justify-content: center; /* Center the items horizontally */
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color:#ffb6c1;
+    transition: 0.5s;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+#home
+
+.image- container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, button {
+    margin: 5px;
+}
+svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.image {
+    fill: none;
+    stroke: #3498db;
+    stroke-width: 2;
+}
+
+.image1 { fill: #e74c3c; }
+.image2 { fill: #2ecc71; }
+.image3 { fill: #f39c12; }
+.image4 { fill: #3498db; }
+.image5 { fill: #9b59b6; }
